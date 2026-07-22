@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net4.8</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseOutputPath>.\bin_v4\</BaseOutputPath>
+    <OutputPath>.\bin_v4\</OutputPath>
+    <AppendTargetFrameWorkToOutputPath>false</AppendTargetFrameWorkToOutputPath>
+  </PropertyGroup>
+
+<ItemGroup>
+    <Reference Include="Syntec.OpenCNC, Version=10.120.18.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\bin_v4\Syntec.OpenCNC.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+</Project>
+
+
+

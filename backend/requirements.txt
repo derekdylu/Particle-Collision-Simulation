@@ -1,0 +1,14 @@
+fastapi>=0.109.0
+uvicorn>=0.27.0
+websockets>=10.4
+pyserial>=3.5
+opencv-python>=4.9.0
+numpy>=1.26.3
+goprocam>=1.4.0
+python-multipart>=0.0.5
+pydantic>=2.6.1 
+requests>=2.31.0
+
+# Development dependencies
+black>=24.2.0
+flake8>=7.0.0

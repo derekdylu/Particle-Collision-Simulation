@@ -1,0 +1,48 @@
+# Private source repositories retained locally as migration inputs.
+/Baseball-Simulation-FEND/
+/Baseball-Simulation-BEND/
+/Baseball-Simulation-UTILS/
+
+# Local configuration and secrets.
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# JavaScript / Next.js.
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Runtime data and camera output.
+/frontend/data/
+/backend/recordings/
+*.avi
+*.mp4
+
+# .NET / Visual Studio.
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.pdb
+
+# OS and editors.
+.DS_Store
+.idea/
+.vscode/
+*.swp
