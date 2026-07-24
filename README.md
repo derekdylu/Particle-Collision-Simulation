@@ -1,5 +1,7 @@
 # Particle Collision Simulation
 
+<img width="1536" height="1024" alt="ChatGPT Image Jul 24, 2026, 01_27_47 AM" src="https://github.com/user-attachments/assets/326c42e1-db54-477e-b76d-d5e2c6f4151a" />
+
 An interactive baseball-themed particle-collision simulator with a local hardware-control stack for cameras, a catcher, and a CNC-driven batting arm.
 
 ## Project status
