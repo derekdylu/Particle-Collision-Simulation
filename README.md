@@ -8,6 +8,10 @@ This repository is a curated snapshot assembled from three private development r
 
 The application code is preserved as originally used on a local lab machine. The browser simulation can be explored without physical equipment, but the backend and hardware code must not be started on an unreviewed machine: it contains operational behavior and machine-specific configuration from the original installation.
 
+## Project team
+
+This project was created as a term project for the exhibition [*Seeing the Wonder of Molecular Encounters*](https://www.ntsec.gov.tw/article/detail.aspx?a=5751), held at the [National Taiwan Science Education Center](https://www.ntsec.gov.tw). It was initiated and funded by the [Yuan T. Lee Foundation for Science Education](https://www.ytlee.org.tw), and directed by [Dr. Jim Jr-Min Lin](https://labs.iams.sinica.edu.tw/project/jimlin/pages/jim-lin), Research Fellow at the [Institute of Atomic and Molecular Sciences, Academia Sinica](https://www.iams.sinica.edu.tw), with guidance from professors at the [Department of Computer Science and Information Engineering](https://www.csie.ntu.edu.tw) and the [Department of Mechanical Engineering](https://www.me.ntu.edu.tw) of [National Taiwan University](https://www.ntu.edu.tw). The project was developed together with my teammates from the Department of Mechanical Engineering at NTU: 鄧亦宸, 林哲安, 陳彥鈞, and 陳鼎云. The robotic arm was sponsored by [SYNTEC Technology Co., Ltd.](https://www.syntecclub.com)
+
 ## Features
 
 - Interactive Next.js simulation inspired by crossed molecular beam experiments
