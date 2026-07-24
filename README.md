@@ -17,6 +17,42 @@ The application code is preserved as originally used on a local lab machine. The
 - Loopback-only C# bridge for a Syntec CNC controller
 - Original local hardware integration retained as an archival implementation reference
 
+## Tech stack
+
+```mermaid
+flowchart LR
+    subgraph Frontend["Frontend"]
+        UI["Next.js 15 / React 19 / TypeScript 5"]
+        VISUALS["Tailwind CSS 4 / Three.js / Anime.js / Lottie"]
+        STATE["Zustand / localStorage / JSON records"]
+        UI --> VISUALS
+        UI --> STATE
+    end
+
+    subgraph Backend["Local backend"]
+        API["FastAPI / Uvicorn / Pydantic"]
+        CONTROL["Python / asyncio device controllers"]
+        VISION["OpenCV / NumPy vision pipeline"]
+        API --> CONTROL
+        CONTROL --> VISION
+    end
+
+    subgraph Hardware["Lab hardware"]
+        CAMERAS["Goal and replay cameras"]
+        ARDUINO["Arduino catcher"]
+        BRIDGE["C# / .NET Framework 4.8 / Syntec SDK"]
+        CNC["CNC batting arm"]
+        BRIDGE --> CNC
+    end
+
+    UI -->|"HTTP"| API
+    VISION --> CAMERAS
+    CONTROL -->|"PySerial"| ARDUINO
+    CONTROL -->|"Loopback TCP"| BRIDGE
+```
+
+Versions shown above come from the committed manifests. The Syntec SDK is a separately licensed local dependency and is not included in this repository.
+
 ## Repository layout
 
 | Path | Purpose |
