@@ -1,7 +1,5 @@
 # Particle Collision Simulation
 
-<img width="2030" height="1292" alt="1776402262059-proj_TEA" src="https://github.com/user-attachments/assets/d9a1ebd5-58f2-439f-92de-952b7765f36b" />
-
 An interactive baseball-themed particle-collision simulator with a local hardware-control stack for cameras, a catcher, and a CNC-driven batting arm.
 
 ## Project status
