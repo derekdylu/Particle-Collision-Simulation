@@ -68,10 +68,6 @@ This software can send commands to physical equipment. Review and test the emerg
 - Keep the stack on the original isolated lab network; it is not an Internet-facing control plane.
 - The Syntec SDK and vendor examples are not redistributed here. Supply a licensed local SDK when building the arm bridge.
 
-## Hardware notes
-
-See [hardware/README.md](hardware/README.md). Never commit credentials, recordings, or additional machine-specific paths.
-
 ## Checks
 
 ```bash
@@ -86,10 +82,6 @@ python -m compileall .
 The preserved backend passes Python syntax compilation but is not currently Black- or Flake8-clean. It is intentionally not reformatted in this display snapshot. Hardware-dependent behavior must be tested only on the original isolated lab system after the device configuration and safety controls have been reviewed.
 
 The preserved dependency versions are also unsuitable for a new Internet deployment without a fresh security review and upgrade. This repository is intended for source display and local archival use.
-
-## Security
-
-See [SECURITY.md](SECURITY.md). Do not include live credentials, private device addresses, recordings, or executable hardware-control details in a public issue.
 
 ## License
 
